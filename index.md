@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# **Portfolio**
 
-You can use the [editor on GitHub](https://github.com/julian-irizarry/programming/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**This page contains brief descriptions and code snippits of past projects. Click on the project for the full code and a more in-depth explanation!**
+<br><br/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## **1.** [Glossary](https://julian-irizarry.github.io/programming/glossary)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Given a .txt file structured as a term on one line, the definition on the next, and then a blank line separating the next term, a sorted html glossary with clickable links to the definitions is created. The glossary was implemented using a (key,value) data structure. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<center><small><i>Example of .txt file.</i></small></center>
 
-- Bulleted
-- List
+![](assets/images/text.PNG)
 
-1. Numbered
-2. List
+Example output: [Glossary](assets/html/index.html)
+<br><br/>
 
-**Bold** and _Italic_ and `Code` text
+## **2.** [String Reassembly From Fragments](https://julian-irizarry.github.io/programming/reassmebly)
 
-[Link](url) and ![Image](src)
-```
+A .txt file that is fragmented is reassembled through overlapping prefixes and suffixes. The strings with the most overlap are combined and the process is continued until there are no suffixes and prefixes that are overlapping.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<center><small><i>Example of Input .txt file (click image for .txt file).</i></small></center>
 
-### Jekyll Themes
+[![](assets/images/fragment.PNG)](assets/text/declaration-50-8.txt)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/julian-irizarry/programming/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<center><small><i>Example Output (click image for .txt file).</i></small></center>
 
-### Support or Contact
+[![](assets/images/declaration.PNG)](assets/text/declaration.txt)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<br><br/>
