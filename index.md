@@ -4,7 +4,7 @@
 <br><br/>
 
 
-## **1.** [Glossary](https://julian-irizarry.github.io/programming/glossary)
+## **1.** [Glossary](https://github.com/julian-irizarry/programming/glossary)
 
 Given a .txt file structured as a term on one line, the definition on the next, and then a blank line separating the next term, a sorted html glossary with clickable links to the definitions is created. The glossary was implemented using a (key,value) data structure. 
 
@@ -16,7 +16,7 @@ Given a .txt file structured as a term on one line, the definition on the next, 
 Example output: [Glossary](assets/html/index.html)
 <br><br/>
 
-## **2.** [String Reassembly From Fragments](https://julian-irizarry.github.io/programming/reassmebly)
+## **2.** [String Reassembly From Fragments](https://github.com/julian-irizarry/programming/reassmebly)
 
 A .txt file that is fragmented is reassembled through overlapping prefixes and suffixes. The strings with the most overlap are combined and the process is continued until there are no suffixes and prefixes that are overlapping.
 
